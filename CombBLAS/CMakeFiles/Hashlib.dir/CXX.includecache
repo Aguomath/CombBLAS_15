@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/allen/CombBLAS/hash.cpp
+stdint.h
+-
+cstring
+-
+hash.hpp
+/home/allen/CombBLAS/hash.hpp
+
+/home/allen/CombBLAS/hash.hpp
+stdint.h
+-
+
